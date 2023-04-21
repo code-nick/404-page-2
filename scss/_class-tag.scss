@@ -1,0 +1,16 @@
+
+    .main_container {
+        display: grid;
+        min-height: 100vh;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    
+        &__Inner_container_gif-1 img {
+            width: 20rem;
+            opacity: 0.6;
+        }
+        &__Inner_container_not_text {
+            margin-top: 4rem;
+        }
+    }
